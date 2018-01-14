@@ -89,12 +89,8 @@ body {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  width: 33.333333333333%;
+  width: 50%;
   float: left;
-  margin: 0;
-  padding: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
@@ -108,25 +104,24 @@ img {
 
 #singleProject h2 {
   font-size: 30px;
-  margin-top: 20px;
   line-height: 1.1;
-  color: inherit;
-  margin: 0;
-  padding: 0px;
+  /*color: inherit;*/
+  text-align:center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
 #singleProject b {
   font-weight: bold;
-  margin: 0;
-  padding: 0px;
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
   font-size: 14px;
-  line-height: 1.1;
-  color: inherit;
 
+}
+
+#singleProject * {
+  color : #5a5a5a;
+  text-align:justify;
 }
 
 #singleProject h5 {
@@ -135,8 +130,6 @@ img {
   margin-bottom: 10px;
   line-height: 1.1;
   color: inherit;
-  margin: 0;
-  padding: 0px;
   box-sizing: border-box
 }
 
