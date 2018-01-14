@@ -32,7 +32,7 @@ body {
 
 /* KEEP THIS FOR THE INTRODUCTORY PICTURE OF THE COFFEE AND LAPTOP*/
 #h1 {
-	background: url(./background.jpeg) no-repeat center top;
+	background: url(./img/background.jpeg) no-repeat center top;
 	background-attachment: relative;
 	background-position: center center;
   background-size: cover;
@@ -125,6 +125,7 @@ img {
 }
 
 #singleProject h5 {
+  padding-top: 15px;
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -132,4 +133,21 @@ img {
   color: inherit;
   box-sizing: border-box
 }
-
+#singleProject #collagepic {
+  position: relative;
+  min-height: 1px;
+  height:auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top:1px;
+  padding-bottom:1px;
+  width: 50%;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+#singleProject img {
+  max-height:190px;
+  min-height:190px;
+  min-width : 250px;
+}
