@@ -1,0 +1,107 @@
+/* cool online font */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+* { 
+	margin: 0;
+	padding: 0px;
+  font-family: 'Lato', sans-serif
+}
+
+img,h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+.mb {margin-bottom: 50px;}
+
+
+/* KEEP THIS FOR THE INTRODUCTORY PICTURE OF THE COFFEE AND LAPTOP*/
+#h1 {
+	background: url(./background.jpeg) no-repeat center top;
+	background-attachment: relative;
+	background-position: center center;
+  background-size: cover;
+  color: white;
+	min-height: 680px;
+	width: 100%;
+  background-size: 100%;
+	padding-top: 8px;
+
+}
+#h1 .intro {
+	margin-top: 40px;
+	margin-right: 40px;
+	padding-bottom: 200px;
+}
+
+#h1 .intro h2{
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#h1 h3 {
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+.container {
+   width: 1170px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 33.333333333333%;
+  float: left;
+  margin: 0;
+  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
