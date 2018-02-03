@@ -147,8 +147,8 @@ img {
   box-sizing: border-box;
 }
 #singleProject img {
-  max-height:190px;
-  min-height:282px;
+  max-height: 350px;
+  min-height:350px;
   min-width : 250px;
 }
 
